@@ -13,10 +13,12 @@ print the star pattern in the below format
 
 public class Star2 {
 	public static void main(String[] args) {
+		System.out.println("Program Started");
 		int lines = 5;
 		String str = "*****";
 		for (int i = 1; i <= lines; i++) {
 			System.out.println(str);
 		}
+		System.out.println("Program Ended");
 	}
 }
